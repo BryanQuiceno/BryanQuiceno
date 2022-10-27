@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url('/font/BebasNeue-Regular.ttf')
+}
+body{
+    font-family: BebasNeue;
+    background: #191E29 ;
+    width: 100%;
+    height: 889px;
+  background-image: radial-gradient(ellipse farthest-corner at 45px 30px ,#01C38D  0%, #01C38D 0%, #132D46 60%);
+}
+
+.cabecera{
+    width: 100%;
+height: 50px;
+background: #132D46;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cabecera ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera div{
+    width: 40%;
+}
+.cabecera h1{
+    letter-spacing: 2.5px;
+    color: #01C38DE6;
+    width: 40%;
+    height: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.cabecera li{
+    display: flex;
+    list-style: none;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #01C38D;
+    border-radius: 10px;
+}
+
+.cabecera li:hover{
+    background-image: radial-gradient(ellipse farthest-corner  ,#01C38D  0%, #01C38D 0%, #132D46 150%);
+    color: #132D46;
+}
+.cabecera a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #01C38D;
+}
+.cabecera a:hover{
+    
+    color: #132D46;
+}
+
+
