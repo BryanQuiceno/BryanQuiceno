@@ -14,7 +14,7 @@ body{
   background-image: radial-gradient(ellipse farthest-corner at 45px 30px ,#01C38D  0%, #01C38D 0%, #132D46 60%);
 }
 
-.cabecera{
+.barra{
     width: 100%;
 height: 50px;
 background: #132D46;
@@ -23,16 +23,16 @@ justify-content: space-between;
 align-items: center;
 }
 
-.cabecera ul{
+.barra ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cabecera div{
+.barra div{
     width: 40%;
 }
-.cabecera h1{
+.barra h1{
     letter-spacing: 2.5px;
     color: #01C38DE6;
     width: 40%;
@@ -44,7 +44,7 @@ align-items: center;
     text-align: center;
     
 }
-.cabecera li{
+.barra li{
     display: flex;
     list-style: none;
     width: 90px;
@@ -57,11 +57,11 @@ align-items: center;
     border-radius: 10px;
 }
 
-.cabecera li:hover{
+.barra li:hover{
     background-image: radial-gradient(ellipse farthest-corner  ,#01C38D  0%, #01C38D 0%, #132D46 150%);
     color: #132D46;
 }
-.cabecera a{
+.barra a{
     width: 100%;
     height: 100%;
     display: flex;
@@ -71,9 +71,53 @@ align-items: center;
     letter-spacing: 2px;
     color: #01C38D;
 }
-.cabecera a:hover{
+.barra a:hover{
     
     color: #132D46;
 }
-
+.portada{
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    /* background-color: #000000; */
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 1fr 20% 1fr 60% 1fr;
+    grid-template-rows: 40% 1fr 1fr;
+}
+.portada h2{
+    font-size: 50px;
+    justify-self:center;
+    align-self: end;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.perfil{
+    overflow: hidden;
+    border-style: solid;
+    border-color: #01C38D;
+    border: 15px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    width: 300px;
+    height: 300px;
+    background-color: #191E29;
+    border-radius: 50%;
+}
+.perfil img{
+    width: 100%;
+}
+.parrafo{
+    grid-row-start: 3;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background-color: #00000081;
+    border-radius: 20px;
+    grid-column-start: 4;
+}
+.parrafo p{
+    color: #01C38D;
+    font-size: 24px;
+}
 
