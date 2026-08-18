@@ -1,23 +1,13 @@
-Desarrollador de software enfocado en sistemas industriales, automatización y monitorización.
+Desarrollador de software enfocado en sistemas industriales, automatización y sistemas en tiempo real.
 
-Soy responsable de I+D en **Remai**, donde desarrollo software que conecta aplicaciones web y de escritorio con equipos reales: PLCs, sistemas de refrigeración, sensores y dispositivos industriales.
+Responsable de I+D en **Remai**, donde desarrollo aplicaciones que conectan software con PLCs, sistemas de refrigeración, sensores y otros equipos industriales.
 
-Trabajo principalmente con **JavaScript**, usando React y Node.js, Electron para aplicaciones de escritorio y React Native cuando el proyecto requiere una aplicación móvil.
+Trabajo principalmente con **JavaScript, React y Node.js**, además de Electron y React Native. Gran parte de mis proyectos utilizan **Socket.IO, WebSockets y Modbus RTU/TCP** para comunicación y monitorización en tiempo real.
 
-También trabajo directamente con la infraestructura: servidores Linux, bases de datos, redes, despliegues y comunicaciones industriales mediante **Modbus RTU/TCP** y PLCs Delta.
+Me interesa especialmente la arquitectura de software —principalmente **Vertical Slice, Hexagonal y Screaming Architecture**— y el uso de **IA y agentes de programación** como parte del proceso de desarrollo.
 
-Actualmente me interesan especialmente:
+Actualmente exploro especialmente **agentes de IA, RAG, automatización y herramientas de desarrollo asistido por IA**.
 
-* software industrial
-* sistemas en tiempo real
-* telemetría y monitorización
-* electrónica y automatización
-* IA aplicada a operaciones técnicas
-
-### Stack
-
-`JavaScript` `TypeScript` `React` `Node.js` `Electron` `React Native` `SQL` `Linux` `Docker` `Modbus`
-
-### Contacto
+`JavaScript` · `React` · `Node.js` · `Electron` · `React Native` · `Socket.IO` · `Modbus` · `Linux`
 
 [Email](mailto:bryanquiceno0@gmail.com) · [LinkedIn](https://www.linkedin.com/in/bryanquiceno/)
